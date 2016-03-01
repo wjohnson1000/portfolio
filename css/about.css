@@ -1,0 +1,48 @@
+.experience {
+  border: 2px solid black;
+  width: 47%;
+  height: 45%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.education {
+  border: 2px solid black;
+  width: 47%;
+  height: 45%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.what-else {
+  border: 2px solid black;
+  width: 47%;
+  height: 45%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.experience h2, .education h2, .what-else h2 {
+  font-size: 5vh;
+  padding: 0 10px;
+}
+.education ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-size: 4vh;
+  padding: 0 10px;
+  height: 80%;
+  line-height: 1.3em;
+}
+.experience p, .what-else p {
+  font-size: 4vh;
+  padding: 0 10px;
+  line-height: 1.3em;
+}
