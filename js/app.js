@@ -2,13 +2,9 @@ var app = angular.module('mypage', ['ui.router'])
 .config(function($stateProvider, $urlRouterProvider, $sceDelegateProvider){
     $urlRouterProvider.otherwise('/');
     $stateProvider.state('home', {
-      templateUrl: 'views/landing.html',
-      controller: 'landing',
-      url: '/'
-    }).state('project', {
       templateUrl: 'views/project.html',
       controller: 'project',
-      url: '/projects/'
+      url: '/'
     }).state('about', {
       templateUrl: 'views/about.html',
       controller: 'about',

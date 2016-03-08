@@ -32,3 +32,23 @@ app.factory('projectData',  function(){
     }
   }
 })
+
+app.factory('bioData',  function(){
+  var about = [
+    {
+      title: "Experience",
+      text: "With over 6 years experience as a steam turbine design engineer. My specialization was stationary turbine components. During my time at this position I was charged with designing mahinery that fit stringent proprietary design rules. I became fluent in 3D modeling and finite element analysis software. This role greatly helped me understand the value in attention to detail."
+    },
+    {
+      title: "What Else",
+      text: "Covered the Orlando Magic during the 2011 season.  Played a part in my high school's musical.  Won 1st place at Penn State's senior design competition.  Tutored at risk youth grades 2 - 5"
+    },
+    {
+      title: "Education",
+      text: ""
+    }
+  ];
+  return {
+    about: about
+  }
+})

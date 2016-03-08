@@ -1,48 +1,54 @@
-.back {
-  font-size: 5vh;
-  color: black;
-  margin: 30px 0 0 100px;
+main {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
 }
 .back:hover {
   cursor: pointer;
 }
 .project {
-  margin: 10vh auto 10vh auto;
+  margin: 5vh auto 0 auto;
   display: flex;
-  flex-direction: column;
-  width: 80%;
+  flex-direction: row;
+  width: 90%;
   align-content: center;
   align-items: center;
   justify-content: space-around;
+  color: white;
 }
 .project-container {
   margin-bottom: 5vh;
   display: flex;
   flex-direction: row;
+  padding-bottom: 5vh;
+  border-bottom: 3px solid white;
 }
 .video-container {
   display: flex;
   align-items: center;
   justify-content: space-around;
   width: 40%;
-  /*border: 1px black solid;*/
+  padding: 0 2vw;
 }
 .info-container {
+  color: #0080B2;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  width: 50%;
-  border: 1px black solid;
+  width: auto;
+  padding: 0 2vw;
 }
 .info-container h1 {
   font-size: 2em;
-  padding: 10px 0 10px 20px;
+  /*padding: 10px 0 10px 20px;*/
 }
 .info-container h2 {
   font-size: 1.5em;
-  padding: 10px 0 10px 20px;
+  /*padding: 10px 0 10px 20px;*/
 }
 .info-container p {
   font-size: 1.2em;
-  padding: 10px 20px 10px 20px;
+  /*padding: 10px 20px 10px 20px;*/
 }

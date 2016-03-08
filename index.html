@@ -12,8 +12,8 @@
     <script type="text/javascript" src='js/services.js'></script>
     <script type="text/javascript" src='js/controllers.js'></script>
     <!-- <script type="text/javascript" src='https://code.jquery.com/jquery-2.2.0.min.js'></script> -->
-    <!-- <script type="text/javascript" src='js/jquery.js'></script>
-    <script type="text/javascript" src='js/main.js'></script> -->
+    <script type="text/javascript" src='js/jquery.js'></script>
+    <script type="text/javascript" src='js/main.js'></script>
     <link rel="stylesheet" href="css/main.css" media="screen" title="no title" charset="utf-8">
     <link rel="stylesheet" href="css/landing.css" media="screen" title="no title" charset="utf-8">
     <link rel="stylesheet" href="css/project.css" media="screen" title="no title" charset="utf-8">
@@ -22,16 +22,38 @@
     <title>William Johnson</title>
   </head>
   <body>
-      <!-- <nav class="navbar">
-        <div class="back">
-          back
+    <div class="body">
+    <div class="header">
+      <div class="name">
+        William Johnson
+      </div>
+    </div>
+    <nav class="nav">
+      <div class="nav-container">
+        <h3 ui-sref='home' ui-sref-active='active'>Projects</h3>
+        <h3 ui-sref='about' ui-sref-active='active'>About</h3>
+      </div>
+      <div class="contact">
+        <div class="contact-item">
+          <a href="mailto:wjohnson1000@gmail.com"><img src="images/email.svg" alt="email" height="40px"
+            width="40px"/></a>
+          <h3><a href="mailto:wjohnson1000@gmail.com">wjohnson1000@gmail.com</a></h3>
         </div>
-        <div class="name">
-          William Johnson
+        <div class="contact-item">
+          <a href="https://github.com/wjohnson1000"><img src="images/Octicons-mark-github.svg.png" alt="github" height="40px"
+            width="40px"/></a>
+          <h3><a href="https://github.com/wjohnson1000">wjohnson1000</a></h3>
         </div>
-      </nav> -->
+        <div class="contact-item">
+          <a href="https://www.linkedin.com/in/wjohnson1000"><img src="images/linkedin.svg" alt="github" height="40px"
+            width="40px"/></a>
+          <h3><a href="https://www.linkedin.com/in/wjohnson1000">wjohnson1000</a></h3>
+        </div>
+      </div>
+    </nav>
     <div ui-view>
 
     </div>
+</div>
   </body>
 </html>

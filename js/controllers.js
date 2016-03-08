@@ -1,5 +1,5 @@
-app.controller('about', ['$scope', 'projectData', function($scope, projectData){
-console.log('hello from conrollers');
+app.controller('about', ['$scope', 'bioData', function($scope, bioData){
+  $scope.about = bioData.about;
 }]);
 app.controller('landing', ['$scope', 'projectData', '$stateParams', function($scope, projectData, $stateParams){
 }])

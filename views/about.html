@@ -1,33 +1,18 @@
-<div class="box-container">
-  <div class="box" ui-sref='home'>
-    <h1>William</h1>
-    <h1>Johnson</h1>
+<main>
+  <div class="bio" ng-repeat='abouts in about'>
+    <div class="project-container">
+      <div ng-hide='$index % 2 != 0' class="video-container">
+        <img width="420" height="315" src="{{}}" ></iframe>
+      </div>
+      <div class="info-container">
+        <h1>{{abouts.title}}</h1>
+        <p>
+          {{abouts.text}}
+        </p>
+      </div>
+      <div ng-show='$index % 2 != 0' class="video-container">
+        <iframe width="420" height="315" src="{{project.video}}" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </div>
   </div>
-  <div class="experience">
-    <h2>Experience</h2>
-    <p>I have over 6 years experience as a steam turbine design engineer.  My
-      specialization was stationary turbine components.  During my time at this
-      position I was charged with designing mahinery that fit stringent proprietary
-      design rules.  I became fluent in 3D modeling and finite element analysis
-      software.  This role greatly helped me understand the value in attention to
-      detail.
-    </p>
-  </div>
-  <div class="education">
-    <h2>Education</h2>
-      <ul>
-        <li>Galvanize Full Stack Immersive, April 2016</li>
-        <li>Penn State University, December 2008<br>
-          B.S. Mechanical Engineering
-        </li>
-      </ul>
-  </div>
-  <div class="what-else">
-    <h2>What Else</h2>
-    <p>Covered the Orlando Magic during the 2011 season</p>
-    <p>Played a part in my high school's musical</p>
-    <p>Won 1st place at Penn State's senior design competition</p>
-    <p>Tutored at risk youth grades 2 - 5</p>
-    </p>
-  </div>
-</div>
+</main>
